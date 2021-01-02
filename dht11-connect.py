@@ -7,7 +7,7 @@ GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.cleanup()
 
-am = ambient.Ambient(30599,'bce3c98dd9f5c251')
+am = ambient.Ambient(12345,'test6789yukkuri')
 
 instance = dht11.DHT11(pin=14)
 
